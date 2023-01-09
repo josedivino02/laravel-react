@@ -1,0 +1,48 @@
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    padding: 0 2rem;
+}
+
+#login .form {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 480px;
+    padding: 0.5rem;
+}
+
+#login .field {
+    padding-bottom: .3rem;
+}
+
+#login .field label {
+    display: block;
+}
+
+#login .field input {
+    width: 100%;
+}
+
+#login .actions {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.btns {
+    padding: 7px 12px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #046ee6;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    max-width: 210px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
